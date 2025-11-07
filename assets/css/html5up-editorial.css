@@ -703,6 +703,7 @@ header.major > :last-child {
     .sidebar-menu{
         position: fixed;
         height: 100%;
+        top: 0;
     }
 
     .main-body{

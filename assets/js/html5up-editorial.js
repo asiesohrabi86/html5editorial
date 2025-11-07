@@ -38,18 +38,4 @@ $(document).ready(function(){
         
     });
 
-
-    var lastScrollTop = 0;
-    $(window).scroll(function(event){
-        var st = $(this).scrollTop();
-        if (st > 1700){
-            $(".main-body").scrollTop($(".main-body").height());
-            // $(".main-body").addClass("main-body-fixed");
-        } 
-        // else {
-        //     $(".main-body").removeClass("main-body-fixed");
-        // }
-        
-    });
-
 });
